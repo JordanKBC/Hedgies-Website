@@ -7,6 +7,7 @@ body {
 
 .top_section {
     background-color: #1F2937;
+    flex: 2;
 }
 
 .Header {
@@ -85,11 +86,85 @@ a {
     flex:1;
     display:flex;
     flex-direction: column;
+    margin-bottom: 60px;
 }
 .sectop_title {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom:50px;
+}
 
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 32px;
+    padding:
+}
+
+.info {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width:300px;
+}
+.icon {
+    max-width:250px;
+    height:250px;
+    border-radius: 10px;
+    border-color: lightskyblue;
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.thirdtop_section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 450px;
+}
+.quote {
+    font-size: 36px;
+    font-style:italic;
+}
+.quoter {
+    align-self: flex-end;
+}
+
+
+.fourtop_section {
+    flex: 1;
+    margin-top: 30px;
+    display: flex;
+    align-content:center;
+    justify-content:center;
+}
+
+.fourtop-container {
+    display:flex;
+    width: 1000px;
+    height: 120px;
+    gap: 50px;
+    background-color: plum;
+    padding:10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.fourtop_section .content {
+    display:flex;
+    flex-direction: column; 
 }
