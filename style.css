@@ -7,7 +7,10 @@ body {
 
 .top_section {
     background-color: #1F2937;
-    flex: 2;
+    flex: 2 1 auto;
+    height:500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .Header {
@@ -38,13 +41,17 @@ a {
 
 .content {
     display: flex;
+    flex:1;
+    gap:100px;
 }
 
 .top_text {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     padding-left: 100px;
+    padding-top: 70px;
 }
 
 .intro {
@@ -70,13 +77,13 @@ a {
     flex: 1;
     display:flex;
     justify-content: flex-start;
-    align-content: center;
+    align-items:center;
 }
 
 .Gamehouse {
-    width:400px;
-    height: auto;
-    border-radius: 10%;
+    width:550px;
+    height: 300px;
+   
 }
 
 
@@ -123,9 +130,6 @@ a {
 }
 
 
-
-
-
 .thirdtop_section {
     background-color: #E5E7EB;
     display: flex;
@@ -135,6 +139,7 @@ a {
     align-items: center;
     padding: 20px 450px;
 }
+
 .quote {
     font-size: 36px;
     font-style:italic;
@@ -144,12 +149,14 @@ a {
 }
 
 
+
 .fourtop_section {
     flex: 1;
     margin-top: 30px;
     display: flex;
     align-content:center;
     justify-content:center;
+    margin-bottom: 30px;
 }
 
 .fourtop-container {
@@ -158,13 +165,39 @@ a {
     height: 120px;
     gap: 50px;
     background-color: plum;
-    padding:10px;
+    padding:20px 0px;
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
     
 }
-.fourtop_section .content {
+.fourtop_section .content-text {
     display:flex;
-    flex-direction: column; 
+    flex-direction: column;
+    color: white; 
+    font-size: large;
+    margin-top: -15px;
+}
+
+.join {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    background-color: plum;
+    color: white;
+    font-size: large;
+}
+
+.footer {
+    flex:1;
+    display:flex;
+    background-color: #1F2937; 
+    color: white;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+    padding:30px;
 }
